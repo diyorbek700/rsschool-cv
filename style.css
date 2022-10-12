@@ -1,0 +1,288 @@
+@import url('https://fonts.googlwapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.class {
+    background: url(image/Giant\ Panda\ \(1\).jpg);
+    height: 780px;
+    width: auto;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    padding: 20px 70px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #111;
+    line-height: 100px;
+}
+
+header:hover{
+    color: #F9804B;
+}
+
+header .c {
+    left: -300px;
+}
+
+header .c a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header .navigation {
+    position: relative;
+    display: flex;
+    left: 100px;
+    gap: 15px;
+}
+
+header .navigation li a:hover {
+    color: #F9804B;
+}
+
+header .navigation li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navigation li a {
+    text-decoration: none;
+    font-weight: 300;
+    color: #fff;
+}
+
+.panda {
+    position: relative;
+}
+
+.panda h1 {
+    margin-left: 700px;
+    line-height: 75%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 106.5px;
+    color: #fff;
+}
+
+.button {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 40px;
+    left: 980px;
+    background-color: #F9804B;
+    border-radius: 25px;
+    padding: 16px 32px;
+    bottom: 180px;
+}
+
+.panda .round {
+    background-color: #F9804B;
+    border-radius: 50%;
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    top: 92px;
+    right: 50px;
+}
+
+.text {
+    padding: 130px;
+    z-index: 10000;
+    grid-template-columns: auto;
+}
+
+.panda .text img {
+    top: 40px;
+
+}
+
+.section {
+    top: 90px;
+}
+
+.fullpage,
+.elements {
+    top: 100px;
+}
+
+.oldman .elements {
+    position: absolute;
+    height: 403px;
+    left: 219px;
+    right: 220px;
+    top: 920px;
+}
+
+.oldman .elements .rose {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+}
+
+.oldman {
+    top: 30px;
+}
+
+.oldman img {
+    width: 609px;
+    height: 403px;
+    left: 0px;
+    top: 0px;
+}
+
+.elements { 
+   top: 20px;
+}
+
+
+.oldman .elements .rose img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.elements h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    padding: 10px;
+}
+
+.elements p {
+    padding: 10px;
+}
+
+.elements h5 {
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.fullpage {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+
+}
+
+.fullpage .elements {
+    position: relative;
+    width: 33%;
+}
+
+.rose{
+    position: relative;
+    top: -90px;
+    padding:10 px;
+    right: -57px;
+}
+
+/* @media (max-width: 991px) {
+
+    header,
+    header {
+        padding: 10px 20px;
+    }
+
+
+    header .navigation li {
+        margin-left: 0;
+    }
+
+    header .navigation li a {
+        color: #111;
+        font-size: 1.6em;
+    }
+} */
+
+.menu .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 49px;
+}
+
+.menu .content .box {
+    width: 340px;
+    margin: 20px;
+    border: 1px solid #F9804B;
+}
+
+.menu .content .box .imgBx {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.menu .content .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu .content .box .text {
+    padding: 15px 5px;
+}
+
+.menu .content .box .text h3 {
+    font-weight: 400;
+    color: #111;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    padding: 10 40px;
+    min-height:150px;
+    float: left;
+}
+
+.title a{
+    justify-content: center;
+    text-align: center;
+}
+
+.title .right{
+    right: 30px;
+
+}
+
+.btn {
+    font-size: 1em;
+    color: #fff;
+    background: #F9804B;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
